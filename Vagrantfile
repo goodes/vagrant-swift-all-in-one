@@ -41,7 +41,7 @@ Vagrant.configure("2") do |global_config|
           hostname = 'saio'
       end
       config.vm.hostname = hostname
-      config.vm.box = "swift-all-in-one"
+      config.vm.box = "swift-all-in-one-develop"
       config.vm.box_url = "http://files.vagrantup.com/precise64.box"
       config.vm.network :private_network, ip: ip
       config.vm.provider :virtualbox do |vb|
